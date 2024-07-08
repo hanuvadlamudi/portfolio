@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    border: box;
+    background-color: #4A5C6A;
+}
+
+.navbar{
+    background-color: #153548;
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav_name{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 18px;
+}
+
+.nav_ops{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0;
+
+}
+
+.nav_ops p{
+    margin: 16px;
+    color: whitesmoke;
+    display: flex;
+}
+
+.details{
+    margin-top: 96px;
+}
+
+.social_media i {
+    justify-content: space-around;
+    margin: 8px;
+}
+
+.btn{
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 12px;
+}
