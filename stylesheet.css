@@ -1,16 +1,19 @@
 body{
-    padding: 0;
+    margin: 0;
     border: box;
-    background-color: #4A5C6A;
+    background-color: #044e47;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar{
-    background-color: #153548;
+    background-color: #03131c;
     height: 2.5rem;
     width: 100%;
     display: flex;
     align-items: center;
-    position: relative;
+    position: fixed;
+    top: 0;
+    
 }
 
 .nav_name{
@@ -25,7 +28,6 @@ body{
     flex-wrap: wrap;
     position: absolute;
     right: 0;
-
 }
 
 .nav_ops p{
@@ -38,13 +40,47 @@ body{
     margin-top: 96px;
 }
 
+.intro{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 10px;
+    margin: 60px;
+    margin-top: 180px;
+}
+
+.skills{
+    margin-left: 60px;
+    margin-top:0;
+}
+
 .social_media i {
     justify-content: space-around;
     margin: 8px;
 }
 
+img{
+    height: 400px;
+    width: 280px;
+    object-fit:cover;
+    position: absolute;
+    right: 96px;
+    display: flex;
+}
+
+.brief{
+    text-align: justify;
+    margin-right: 600px;
+    margin-left: 120px;
+    
+}
+
+
+
 .btn{
     border-radius: 50px;
+    background-color: rgb(105, 62, 128);
     font-weight: 600;
     font-size: 12px;
 }
+
+
