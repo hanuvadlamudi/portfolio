@@ -5,6 +5,8 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+
 .navbar{
     background-color: #03131c;
     height: 2.5rem;
@@ -46,16 +48,50 @@ body{
     line-height: 10px;
     margin: 60px;
     margin-top: 180px;
+    animation:nameanimation 1s ease-in 0s 1 normal;
 }
 
-.skills{
+@keyframes nameanimation{
+    from{font-size: 0px;}
+    to{font-size: 28px;}
+}
+
+/* .skills{
     margin-left: 60px;
     margin-top:0;
+} */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.skills {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 2s steps(10, end) normal;
+    margin-left: 60px;
+    margin-top: 0;
+}
+
+.social_media  {
+    margin: 26px 60px;
 }
 
 .social_media i {
-    justify-content: space-around;
-    margin: 8px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    margin: 6px;
+    border: 2px solid #051822; 
+    border-radius: 50%; 
+    background-color: #4f1e3f; 
 }
 
 img{
@@ -70,17 +106,18 @@ img{
 .brief{
     text-align: justify;
     margin-right: 600px;
-    margin-left: 120px;
-    
+    margin-left: 60px;
+    line-height: 22px;
 }
-
-
 
 .btn{
     border-radius: 50px;
-    background-color: rgb(105, 62, 128);
+    margin-left:  60px;
+    background-color:  rgb(94, 102, 126);
     font-weight: 600;
-    font-size: 12px;
+    font-size: 18px;
+    width: 160px;
+    height: 36px;
 }
 
 
