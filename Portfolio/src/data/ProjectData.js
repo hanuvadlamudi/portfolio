@@ -58,8 +58,20 @@ export const stackList = [
     name: "Java",
   },
   {
-    img: "https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg",
-    name: "NodeJS",
+    img: "https://w7.pngwing.com/pngs/403/269/png-transparent-react-react-native-logos-brands-in-colors-icon-thumbnail.png",
+    name: "ReactJS",
+  },
+  {
+    img: "https://saigontechnology.com/wp-content/uploads/redux%20toolkit.webp",
+    name: "Redux",
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-mspyndicMBTk-KdKp96OZiaD2rkYLYzFQ&s",
+    name: "Tailwind CSS",
+  },
+  {
+    img: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
+    name: "My SQL",
   },
 
 ];
